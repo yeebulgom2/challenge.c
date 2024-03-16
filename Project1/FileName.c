@@ -128,7 +128,7 @@ int main()
 			num = input[0] - '0';
 			flag = 0;
 		}
-		printf("c:%d l:%d\n", cnt, len);
+
 		if (cnt == len) {
 			len += 3;
 			Data* new_size = (Data*)malloc(sizeof(Data) * len);
