@@ -1,0 +1,6 @@
+﻿  FileName.c
+C:\Users\BIT\source\repos\Project1\Project1\FileName.c(49,1): warning C4716: 'Delete': 값을 반환해야 합니다.
+C:\Users\BIT\source\repos\Project1\Project1\FileName.c(28,1): warning C4716: 'Insert': 값을 반환해야 합니다.
+C:\Users\BIT\source\repos\Project1\Project1\FileName.c(64,1): warning C4716: 'Search': 값을 반환해야 합니다.
+C:\Users\BIT\source\repos\Project1\Project1\FileName.c(72,1): warning C4716: 'Print_all': 값을 반환해야 합니다.
+  Project1.vcxproj -> C:\Users\BIT\source\repos\Project1\x64\Debug\Project1.exe
