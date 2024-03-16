@@ -132,14 +132,9 @@ int main()
 		if (cnt == len) {
 			len += 3;
 			Data* new_size = (Data*)malloc(sizeof(Data) * len);
-			/*for (int i = 0; i < cnt; i++) {
-				strcpy(new_size[i].name, info[i].name);
-				strcpy(new_size[i].tel_num, info[i].tel_num);
-			}*/
 			memcpy(new_size, info, cnt * sizeof(Data));
 			free(info);
 			info = new_size;
-			//free(new_size);
 		}
 		printf("\n");
 
